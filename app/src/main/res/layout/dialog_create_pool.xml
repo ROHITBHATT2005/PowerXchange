@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Create Energy Pool"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp" android:textStyle="bold" />
+
+    <TextView android:id="@+id/tv_pool_info"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Available: 0\nPrice: ₹0.00/kWh"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp" />
+
+    <TextView android:id="@+id/tv_pool_market"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Remaining reserved for other members"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_my_qty"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Your share (kWh)"
+        app:boxStrokeColor="@color/emerald_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_my_qty"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_primary" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView android:id="@+id/tv_pool_pay"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="You will pay ₹0.00"
+        android:textColor="@color/emerald_primary"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:gravity="end" android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_pool_cancel"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/text_secondary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_pool_create"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/emerald_primary"
+            android:text="Create Pool"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+</LinearLayout>

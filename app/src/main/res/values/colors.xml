@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emerald_primary">#00875A</color>
+    <color name="emerald_primary_dark">#005A36</color>
+    <color name="emerald_accent">#0F9D58</color>
+    <color name="emerald_light">#E8F5E9</color>
+    <color name="emerald_super_light">#F4F9F6</color>
+    <color name="emerald_card_bg">#FFFFFF</color>
+    <color name="emerald_chip_bg">#E0F2F1</color>
+
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="border_color">#E0E0E0</color>
+
+    <color name="green_badge_bg">#E6F4EA</color>
+    <color name="green_badge_text">#137333</color>
+
+    <color name="solar_yellow">#F57F17</color>
+    <color name="wind_blue">#0288D1</color>
+    <color name="battery_green">#2E7D32</color>
+    <color name="biogas_green">#558B2F</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

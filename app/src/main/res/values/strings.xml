@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PowerXchange</string>
+    <string name="app_tagline">Peer-to-Peer Clean Energy Network</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_market">Market</string>
+    <string name="nav_pool">Pools</string>
+    <string name="nav_rules">Rules</string>
+    <string name="nav_swap">Barter</string>
+    <string name="nav_orders">My Orders</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth -->
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="select_role">Select Role:</string>
+    <string name="role_prosumer">Prosumer (Producer &amp; Seller)</string>
+    <string name="role_consumer">Consumer (Energy Buyer)</string>
+    <string name="role_delivery">Delivery Partner</string>
+</resources>

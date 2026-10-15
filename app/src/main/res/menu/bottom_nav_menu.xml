@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_market"
+        android:icon="@drawable/ic_market"
+        android:title="@string/nav_market" />
+    <item
+        android:id="@+id/nav_pool"
+        android:icon="@drawable/ic_pool"
+        android:title="@string/nav_pool" />
+    <item
+        android:id="@+id/nav_rules"
+        android:icon="@drawable/ic_rules"
+        android:title="@string/nav_rules" />
+    <item
+        android:id="@+id/nav_swap"
+        android:icon="@drawable/ic_swap"
+        android:title="@string/nav_swap" />
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/ic_check"
+        android:title="@string/nav_orders" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/nav_profile" />
+</menu>
